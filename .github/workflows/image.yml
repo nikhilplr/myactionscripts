@@ -16,7 +16,3 @@ jobs:
         with:
           version: latest
       - name: build the image
-      run: |
-        docker buildx build \
-          --tag cloudops-guru/multiarch-example:latest \
-          --platform linux/amd64,linux/arm/v7,linux/arm64 .

@@ -13,8 +13,6 @@ jobs:
       - name: install buildx
         id: buildx
         uses: crazy-max/ghaction-docker-buildx@v1
-        with:
-          version: latest
       - name: Build Image
         run: |
          docker buildx build \

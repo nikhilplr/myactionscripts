@@ -1,11 +1,11 @@
-name: build our image
+name: Build CloudDevOps Image
 
 on:
   push:
     branches: master
 
 jobs:
-  build:
+  docker:
     runs-on: ubuntu-latest
     steps:
       - name: checkout code

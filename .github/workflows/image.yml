@@ -15,5 +15,10 @@ jobs:
         uses: crazy-max/ghaction-docker-buildx@v1
         with:
           version: latest
+      - name: Build Image
+        run: |
+         docker buildx build \
+          --tag cloudops-guru/multiarch-example:latest \
+          --platform linux/amd64,linux/arm/v7,linux/arm64 .
 
 

@@ -1,6 +1,6 @@
 FROM python:3.11-slim
 
-WORKDIR /github/workspace
+WORKDIR /app
 
 COPY entrypoint.py .
 COPY requirements.txt .
@@ -8,4 +8,4 @@ COPY requirements.txt .
 #RUN pip install --no-cache-dir -r requirements.txt
 RUN pip3 install openai==0.28
 
-ENTRYPOINT ["python", "entrypoint.py"]
+ENTRYPOINT ["python", "/app/entrypoint.py"]

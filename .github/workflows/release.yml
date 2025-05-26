@@ -1,0 +1,27 @@
+name: Release Management
+
+on:
+  push:
+    paths:
+      - 'release.log'
+
+  workflow_dispatch:
+    inputs:
+      PROMPT:
+        description: 'Prompt to analyze the logs'
+        required: true
+        default: 'Show me current services in Tabular format'
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Run Custom Log Analyzer
+        uses: ./actions/openai-release
+        with:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          PROMPT: ${{ github.event.inputs.PROMPT || 'Show me current services in Tabular format' }}
+          LOG_FILE: "release.log"

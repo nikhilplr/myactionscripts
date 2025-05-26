@@ -1,0 +1,94 @@
+# Release V96.0
+{
+"release": "V96.0", 
+"date": "2024-01-15",
+"changes": [
+    {
+        "functions/changelog-event-processor": "V96.0",
+        "functions/blp-excel-export": "V96.0",
+        "functions/api-authorizer": "V96.0",
+        "server": "V96.0",
+        "functions/frameworks-importer": "V96.0",
+        "functions/excel-export": "V96.0",
+        "functions/s3files-to-sharepoint-generic": "V96.0",
+        "functions/operators": "V96.0",
+        "functions/plm": "V96.0",
+        "functions/mfp-importer": "V96.0",
+        "functions/images-event-processor": "V96.0",
+        "functions/sharepoint-to-s3files": "V96.0",
+        "client_perf": "V96.0",
+        "client_prod": "V96.0"
+    }
+    ]
+}
+
+# Release V97.0
+{
+"release": "V97.0", 
+"date": "2024-01-27",
+"changes": [ 
+    {
+        "functions/changelog-event-processor": "V97.0",
+        "functions/blp-excel-export": "V97.0",
+        "functions/api-authorizer": "V97.0",
+        "server": "V97.0",
+        "functions/frameworks-importer": "V97.0",
+        "functions/excel-export": "V97.0",
+        "functions/s3files-to-sharepoint-generic": "V97.0",
+        "functions/operators": "V97.0",
+        "functions/plm": "V97.0",
+        "functions/mfp-importer": "V97.0",
+        "functions/images-event-processor": "V97.0",
+        "functions/sharepoint-to-s3files": "V97.0",
+        "client_perf": "V97.0",
+        "client_prod": "V97.0"
+    }
+    ]
+}
+
+# Release V98.0 
+{
+"release": "V98.0", 
+"date": "2024-02-27",
+"changes": [ 
+    { 
+        "functions/blp-excel-export": "V98.0",
+        "functions/api-authorizer": "V98.0",
+        "server": "V98.0",
+        "functions/frameworks-importer": "V98.0",
+        "functions/excel-export": "V98.0",
+        "functions/s3files-to-sharepoint-generic": "V98.0",
+        "functions/operators": "V98.0",
+        "functions/plm": "V98.0",
+        "functions/mfp-importer": "V98.0",
+        "functions/images-event-processor": "V98.0",
+        "functions/sharepoint-to-s3files": "V98.0",
+        "client_perf": "V98.0", 
+    }
+    ]
+}
+# Release V99.0 
+{
+"release": "V99.0", 
+"date": "2024-03-22",
+"changes": [ 
+    {
+        "functions/changelog-event-processor": "V99.0", 
+        "client_prod": "V99.0"
+    }
+    ]
+}
+
+
+# Release V100.0 
+{
+"release": "V100.0", 
+"date": "2024-04-18",
+"changes": [ 
+    {
+        "functions/frameworks-importer": "V100.0",  
+    }
+    ]
+}
+
+###
